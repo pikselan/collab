@@ -1,5 +1,6 @@
 {
-  "name": "collab-im",
+  "name": "collab",
+  "homepage": "https://collab.pikselan.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

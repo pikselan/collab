@@ -116,7 +116,7 @@ class Register extends React.Component {
                 <Grid.Column style={{maxWidth: 450}}>
                     <Header as="h1" icon color="orange" textAlign="center">
                         <Icon name="puzzle piece" color="orange" />
-                        Register Collab-IM
+                        Register Collab
                     </Header>
                     <Form size="large" onSubmit={this.handleSubmit}>
                         <Segment stacked>

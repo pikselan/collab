@@ -270,7 +270,8 @@ class Messages extends React.Component {
                     searchLoading={searchLoading}
                     isPrivateChannel={privateChannel}
                     handleStar={this.handleStar}
-                    isChannelStarred={isChannelStarred} />
+                    isChannelStarred={isChannelStarred} 
+                />
 
                 <Segment>
                     <Comment.Group className="messages">
@@ -286,7 +287,8 @@ class Messages extends React.Component {
                     currentChannel={channel}
                     currentUser={user}
                     isPrivateChannel={privateChannel}
-                    getMessagesRef={this.getMessagesRef} />
+                    getMessagesRef={this.getMessagesRef} 
+                />
             </React.Fragment>
         )
     }

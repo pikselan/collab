@@ -274,7 +274,7 @@ class Messages extends React.Component {
                 />
 
                 <Segment>
-                    <Comment.Group className="messages">
+                    <Comment.Group className="messages" style={{maxWidth:"none"}}>
                         {this.displayMessagesSkeleton(messagesLoading)}
                         {searchTerm ? this.displayMessages(searchResults) : this.displayMessages(messages)}
                         {this.displayTypingUsers(typingUsers)}
